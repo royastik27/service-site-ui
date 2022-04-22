@@ -1,0 +1,143 @@
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* NAVIGATION BAR */
+.navbar.nav-main {
+    /* position: fixed; */
+    color: white;
+    font-size: 1.1rem;
+    background-color: white !important;
+    border-bottom: 1px dotted brown;
+}
+
+.navbar.nav-main .navbar-brand {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.navbar.nav-main .nav-item {
+    padding: 1rem 1rem;
+}
+
+.navbar.nav-main span {
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+}
+
+/* MODAL */
+#modal {
+    /* height: 20rem; */
+    background-image: url("../img/modal.jpg");
+    background-size: cover;
+}
+
+#modal .content {
+    /* padding: 1.2rem; */
+    padding: 1.2rem;
+    color: white;
+    margin: auto;
+}
+
+#modal h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+#modal p {
+    width: 40%;
+    margin: 1.5rem 0rem;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+    #modal .content {
+        text-align: center;
+    }
+
+    #modal p {
+        margin: auto;
+        width: 100%;
+    }
+
+    #modal a {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+/* SERVICES */
+#services h2 {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+#services p {
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#services .content {
+    padding: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#services .content div {
+    display: inline-grid;
+    padding: 2.5rem 2rem;
+    border: 1px solid #C8D0DA;
+    /* height: 25rem; */
+}
+
+#services .content .middle {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0rem 5rem;
+}
+
+@media (max-width: 992px) {
+    #services .content .middle {
+        margin: 0rem 0rem;
+    }
+}
+
+#services i {
+    width: 5rem;
+    /* text-align: center; */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #387EF9;
+    font-size: 2rem;
+}
+
+#services h4 {
+    margin: 1rem 0rem;
+}
+
+#services .content div p {
+    /* width: 70%; */
+    width: 100%;
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 0rem 0rem;
+    color: #909599;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CAN IMPLEMENT USING CARDS */
