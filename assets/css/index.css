@@ -8,7 +8,6 @@
 
 /* NAVIGATION BAR */
 .navbar.nav-main {
-    /* position: fixed; */
     color: white;
     font-size: 1.1rem;
     background-color: white !important;
@@ -30,18 +29,15 @@
 .sticky {
     position: fixed;
     top: 0;
-    /* width: 100%; */
 }
 
 /* MODAL */
 #modal {
-    /* height: 20rem; */
     background-image: url("../img/modal.jpg");
     background-size: cover;
 }
 
 #modal .content {
-    /* padding: 1.2rem; */
     padding: 1.2rem;
     color: white;
     margin: auto;
@@ -103,7 +99,6 @@
     display: inline-grid;
     padding: 2.5rem 2rem;
     border: 1px solid #C8D0DA;
-    /* height: 25rem; */
 }
 
 #services .content .middle {
@@ -111,11 +106,8 @@
     margin: 0rem 2rem;
 }
 
-
-
 #services i {
     width: 5rem;
-    /* text-align: center; */
     padding: 1.5rem;
     border-radius: 1rem;
     color: white;
@@ -133,7 +125,6 @@
 }
 
 #services .content div p {
-    /* width: 70%; */
     width: 100%;
     margin: 2rem 0rem 0rem 0rem;
     padding: 0rem 0rem;
@@ -151,14 +142,46 @@
         margin: auto;
     }
 
-    /* #services h4 {
-        text-align: center;
-    } */
-
     #services .content div {
         width: 100%;
         text-align: center;
     }
 }
 
-/* CAN IMPLEMENT USING CARDS */
+/* PACKAGES */
+#packages {
+    margin-top: 2rem;
+    background-color: #F6F9FF;
+    height: 40rem;
+}
+
+#packages h2 {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#packages #package-titles {
+    margin: 2rem auto;
+    width: 40vw;
+}
+
+#packages #package-titles .package-title {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #102E49;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#package-titles .package-title:hover {
+    box-shadow: 0rem 0rem 0.5rem blueviolet;
+}
+
+#packages #package-titles .disabled {
+    background-color: #C9CFDA;
+}
