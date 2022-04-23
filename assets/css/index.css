@@ -99,6 +99,7 @@
 }
 
 #services .content div {
+    width: 30%;
     display: inline-grid;
     padding: 2.5rem 2rem;
     border: 1px solid #C8D0DA;
@@ -107,14 +108,10 @@
 
 #services .content .middle {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 0rem 5rem;
+    margin: 0rem 2rem;
 }
 
-@media (max-width: 992px) {
-    #services .content .middle {
-        margin: 0rem 0rem;
-    }
-}
+
 
 #services i {
     width: 5rem;
@@ -130,6 +127,11 @@
     margin: 1rem 0rem;
 }
 
+#services .content a {
+    display: table;
+    margin: auto;
+}
+
 #services .content div p {
     /* width: 70%; */
     width: 100%;
@@ -138,6 +140,25 @@
     color: #909599;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 992px) {
+    #services .content .middle {
+        margin: 1rem 0rem;
+    }
+
+    #services i {
+        margin: auto;
+    }
+
+    /* #services h4 {
+        text-align: center;
+    } */
+
+    #services .content div {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* CAN IMPLEMENT USING CARDS */
