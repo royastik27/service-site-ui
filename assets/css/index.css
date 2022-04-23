@@ -152,7 +152,7 @@
 #packages {
     margin-top: 2rem;
     background-color: #F6F9FF;
-    height: 40rem;
+    /* height: 40rem; */
 }
 
 #packages h2 {
@@ -184,4 +184,45 @@
 
 #packages #package-titles .disabled {
     background-color: #C9CFDA;
+}
+
+#package-list {
+    margin: 3rem auto;
+    width: 70vw;
+}
+
+#package-list .package {
+    width: 27%;
+    margin: 0rem 1.5rem;
+    padding: 2rem;
+    display: inline-block;
+    background-color: white;
+    /* border: 2px dotted dodgerblue; */
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+#package-list .middle {
+    color: white;
+    background-color: #102E49;
+}
+
+#package-list p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+#package-list ul {
+    margin: 2rem 0rem;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    #package-list .package {
+        width: 100%;
+    }
+
+    #package-list .package {
+        margin: 0.7rem auto;
+    }
 }
